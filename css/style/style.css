@@ -1,0 +1,313 @@
+ 
+ #nav1{
+     width: 813px;
+     max-width: 100%;
+   }
+ a {
+     color: #fff;
+     text-decoration: none;
+ } 
+  .navbar-light .navbar-nav .nav-link {
+     color: #ffffffc2;
+ }
+ 
+ .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
+     color: #fff;
+ }
+ 
+ #img1s{
+  
+  height:795px;
+  
+ }
+ 
+ .nav-link:hover{
+   
+   font-weight: 400;
+   border-bottom:1px solid #fff;
+   margin-bottom:-1px;
+   
+ }
+ 
+ @media only screen and (max-width: 1000px){
+   
+   #img1s{
+    
+   height:600px;
+    
+   }
+
+   #img1v{
+    
+        margin-bottom: 20px;
+  
+   }
+   
+     #img2v{
+    
+        margin-bottom: 20px;
+  
+   }
+
+ 
+
+   
+   .navbar{  
+    background-color: rgba(0,0,0,0.8)  
+   }
+   .nav-link:hover{
+ 
+   border-bottom:none;
+   
+ }
+   
+ }
+ 
+ 
+
+
+ nav.black{
+  
+  background-color: rgba(0,0,0,0.8);
+ 
+  
+ }
+ 
+
+ .carousel-control-next-icon, .carousel-control-prev-icon {
+  
+     width: 30px;
+     height: 30px;
+ }
+ 
+ 
+ .carousel-caption {
+ 
+     padding-bottom: 255px;
+ 
+ }
+ 
+ .h1, .h2, .h3, .h4, .h5, .h6, #h1_c, h2, h3, h4, h5, h6 {
+     margin-bottom: 2.5rem;
+ }
+ 
+ 
+ #b1{
+  
+  
+      bottom: -52px;
+  
+ }
+ 
+ #the_b1 {
+  
+     color: #ff0202;
+ }
+ 
+ .carousel-indicators .active {
+     background-color: #ff0101;
+ }
+ 
+
+ 
+ #h1_c {
+   display: flex;
+   flex-direction: row;
+ }
+#h1_c:before, #h1_c:after{
+   content: "";
+   flex: 1 1;
+   border-bottom: 2px solid #000;
+   margin: auto;
+ }
+ #h1_c:before {
+   margin-right: 10px
+ }
+ #h1_c:after {
+   margin-left: 10px
+ }
+ 
+ 
+ .card {
+ 
+     border: 1px solid rgb(255 255 255 / 13%);
+ 
+ }
+ 
+ 
+ .card-img-top {
+    border-top-right-radius: calc(.25rem - 1px);
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+    border-bottom-right-radius: calc(0.25rem - 1px);
+}
+
+.inner{
+ 
+ overflow: hidden;
+ 
+}
+
+.inner img{
+ 
+ transition: all 1.5s cubic-bezier(0.57, 0.4, 0.42, 0.81);
+ 
+ 
+}
+
+.inner:hover img{
+ 
+ transform: scale(1.5);
+ 
+ 
+}
+
+
+
+*{
+  
+  padding: 0px;
+  margin:0px;
+  box-sizing:border-box;
+  
+ }
+ 
+ .box{
+  
+  width:100%;
+  height:600px;
+  
+ }
+ 
+ 
+
+.text-block_section {
+ 
+        position: absolute;
+    bottom: 159px;
+    right: 109px;
+    background-color: #ffffffbd;
+    color: black;
+    /* padding-left: 31px; */
+    /* padding-right: 48px; */
+    width: 139px;
+    border-top-right-radius: calc(.25rem - 1px);
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+    border-bottom-right-radius: calc(0.25rem - 1px);
+}
+
+::-webkit-scrollbar{
+    
+    width:7px;
+      background: #00000096;
+}
+
+::-webkit-scrollbar-thumb{
+    
+  background: #00000091;
+  
+ border-bottom-left-radius: calc(0.25rem - 1px);
+    border-bottom-right-radius: calc(0.25rem - 1px);
+
+    
+}
+
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box; 
+}
+.content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.sec-content .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.sec-content .content .fas:hover{
+  background: #f12020;
+}
+.sec-content .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.sec-content .content .phone{
+  margin: 15px 0;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+
+.bottom center a:hover{
+  text-decoration: underline;
+}
+
+
